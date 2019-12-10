@@ -1,8 +1,9 @@
 require 'minitest/autorun'
-require_relative '../classes/ship'
-require_relative '../classes/ship_measure_value'
+require_relative '../../classes/ship'
+require_relative '../../classes/ship_measure_value'
+require_relative '../test_helper'
 
-class ShipTest < Minitest::Test
+class ShipTest < TestHelper
   def setup
     @ship = Ship.new
 
